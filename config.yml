@@ -1,0 +1,58 @@
+theme: ["PaperMod"]
+title: Kazu Blogs
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+params:
+    disableThemeToggle: false
+    # ShowShareButtons: true
+    ShowReadingTime: true
+    disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowAllPagesInArchive: true
+    ShowPageNums: true
+    # ShowToc: true
+
+    # profileMode:
+    #   enabled: false
+    #   title: PaperMod
+    #   imageUrl: "#"
+    #   imageTitle: my image
+    #   buttons:
+    #     - name: Archives
+    #       url: archives
+    #     - name: Tags
+    #       url: tags
+
+    homeInfoParams:
+        Title: "Kazu Blogs"
+        Content: >
+          初めまして👋
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/kazu0429"
+        - name: "instagram"
+          url: "https://www.instagram.com/kazu__a041/"
+        - name: "twitter"
+          url: "https://twitter.com/Akazu0429"
+        - name: "applemusic"
+          url: ""
+        - name: "zenn"
+          url: "https://zenn.dev/kazu0429"
+
+    editPost:
+      URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+      Text: "Suggest Changes" # edit text
+      appendFilePath: true # to append file path to Edit link
+        
