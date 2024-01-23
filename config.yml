@@ -9,7 +9,36 @@ enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts"]
 
+minify:
+  disableXML: true
+
+taxonomies:
+      category: categories
+      tag: tags
+      series: series
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Source
+      url: https://github.com/kazu0429/kazu-blogs
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+        
 params:
+    env: production
     disableThemeToggle: false
     # ShowShareButtons: true
     ShowReadingTime: true
@@ -22,29 +51,22 @@ params:
     ShowAllPagesInArchive: true
     ShowPageNums: true
     # ShowToc: true
-
-    # profileMode:
-    #   enabled: false
-    #   title: PaperMod
-    #   imageUrl: "#"
-    #   imageTitle: my image
-    #   buttons:
-    #     - name: Archives
-    #       url: archives
-    #     - name: Tags
-    #       url: tags
+    comments: true
+    images: ["images/opengraph-image.png"]
 
     homeInfoParams:
         Title: "Kazu Blogs"
         Content: >
-          初めまして👋
+          ## Hi there 👋
+
+          はじめまして。現在大学3年生のアキモトカズキです。
 
     socialIcons: # optional
         - name: "github"
           url: "https://github.com/kazu0429"
         - name: "instagram"
           url: "https://www.instagram.com/kazu__a041/"
-        - name: "twitter"
+        - name: "X"
           url: "https://twitter.com/Akazu0429"
         - name: "applemusic"
           url: ""
@@ -52,7 +74,12 @@ params:
           url: "https://zenn.dev/kazu0429"
 
     editPost:
-      URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+      URL: "https://github.com/kazu0429/kazu-blogs/content"
       Text: "Suggest Changes" # edit text
       appendFilePath: true # to append file path to Edit link
-        
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
