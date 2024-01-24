@@ -1,3 +1,4 @@
+baseURL: "/"
 theme: ["PaperMod"]
 title: Kazu Blogs
 enableInlineShortcodes: true
@@ -60,7 +61,7 @@ params:
           ## Hi there 👋
 
           - はじめまして。現在大学3年生のアキモトカズキです。
-          
+
           - 気ままに日々のことについて書いていきたいと思います。
 
     socialIcons: # optional
