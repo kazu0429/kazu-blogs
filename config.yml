@@ -59,7 +59,9 @@ params:
         Content: >
           ## Hi there 👋
 
-          はじめまして。現在大学3年生のアキモトカズキです。
+          - はじめまして。現在大学3年生のアキモトカズキです。
+          
+          - 気ままに日々のことについて書いていきたいと思います。
 
     socialIcons: # optional
         - name: "github"
@@ -77,6 +79,12 @@ params:
       URL: "https://github.com/kazu0429/kazu-blogs/content"
       Text: "Suggest Changes" # edit text
       appendFilePath: true # to append file path to Edit link
+    
+    assets:
+      favicon: "/favicon.ico"
+      favicon16x16:  "/favicon-16x16.png"
+      favicon32x32:  "/favicon-32x32.png"
+      apple_touch_icon:  "/apple-touch-icon.png"
 
 services:
   instagram:
