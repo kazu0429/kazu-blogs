@@ -1,5 +1,5 @@
 baseURL: "/"
-theme: ["PaperMod"]
+theme: PaperMod
 title: Kazu Blogs
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -55,14 +55,35 @@ params:
     comments: true
     images: ["images/opengraph-image.png"]
 
+    profileMode:
+      enabled: false
+      Title: "Kazu Blogs"
+      subtitle: >
+          ## Hi there 👋
+
+          はじめまして。現在大学3年生のアキモトカズキです。
+
+          >気ままに日々のことについて書いていきたいと思います。
+
+      buttons:
+        - name: Technical Posts
+          url: archives
+        - name: Projects
+          url: projects
+        - name: Art Posts
+          url: design
+
     homeInfoParams:
         Title: "Kazu Blogs"
         Content: >
           ## Hi there 👋
 
-          - はじめまして。現在大学3年生のアキモトカズキです。
+          - はじめまして。大学生のアキモトカズキです。
+          私については[About](/about)で
 
-          - 気ままに日々のことについて書いていきたいと思います。
+          - このブログでは、機械学習やWeb周りの技術的なこと、そして自分の日々のことについて気ままに書いていきたいと思います。
+
+          - 
 
     socialIcons: # optional
         - name: "github"
@@ -76,6 +97,9 @@ params:
         - name: "zenn"
           url: "https://zenn.dev/kazu0429"
 
+    analytics:
+      # SiteVerificationTag: ""
+
     editPost:
       URL: "https://github.com/kazu0429/kazu-blogs/content"
       Text: "Suggest Changes" # edit text
@@ -86,6 +110,15 @@ params:
       favicon16x16:  "/favicon-16x16.png"
       favicon32x32:  "/favicon-32x32.png"
       apple_touch_icon:  "/apple-touch-icon.png"
+    
+    markup:
+      highlight:
+        anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        noClasses: false
+        style: monokai
 
 services:
   instagram:

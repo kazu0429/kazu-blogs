@@ -23,7 +23,10 @@ draft: false
 ## このサイトについて
 このサイトは[{{< inTextImg url="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" height="15" >}}](https://gohugo.io/)というGo言語で作られたWebフレームワークで構築しています。テーマは[PeparMod](https://github.com/adityatelange/hugo-PaperMod/)を採用しました。(シンプルでいいなと思ったからです。)
 
-実際はbrewでhugoをインストールし、テーマをgitにsubmissionするだけでできたのでプログラムは一切書いていません。
+実際はbrewでhugoをインストールし、テーマをgitのsubmoduleにaddするだけでできたのでプログラムは一切書いていません。
+
+
+{{< collapse summary="コマンド" >}}
 
 ```
 $ brew install hugo
@@ -32,6 +35,8 @@ $ cd kazu-blogs
 $ git init
 $ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 ```
+
+{{< /collapse >}}
 
 **公式サイト**
 > Hugo is a static site generator written in Go, optimized for speed and designed for flexibility. With its advanced templating system and fast asset pipelines, Hugo renders a complete site in seconds, often less.

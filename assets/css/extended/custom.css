@@ -1,6 +1,20 @@
-iframe {
-    border-radius: var(--radius) !important;
+/* .inline-links a {
+    font-weight: 500;
+    color: ;
+    box-shadow: ;
+    transition: ;
+} */
+
+a {
+    font-weight: 500;
+    color: var(--primary);
+    transition: all 0.2s ease;
 }
+
+a:hover {
+    color: #573eaa;
+}
+
 
 .entry-cover img {
     border: 1px solid var(--border);
