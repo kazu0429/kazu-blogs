@@ -15,6 +15,9 @@ a:hover {
     color: #573eaa;
 }
 
+.entry-link{
+  border: solid;
+}
 
 .entry-cover img {
     border: 1px solid var(--border);
