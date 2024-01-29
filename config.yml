@@ -54,6 +54,7 @@ params:
     # ShowToc: true
     comments: true
     images: ["images/opengraph-image.png"]
+    description: "Kazu Blogsでは機械学習・Web技術、そして日々の活動について書いています。主に機械学習ではPyTorch、Webはフロントエンドについての内容を取り上げていく予定です。"
 
     profileMode:
       enabled: false
