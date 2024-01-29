@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: /
 theme: PaperMod
 title: Kazu Blogs
 enableInlineShortcodes: true
@@ -8,7 +8,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts"]
+mainsections: [posts]
 
 minify:
   disableXML: true
@@ -53,12 +53,12 @@ params:
     ShowPageNums: true
     # ShowToc: true
     comments: true
-    images: ["images/opengraph-image.png"]
-    description: "Kazu Blogsでは機械学習・Web技術、そして日々の活動について書いています。主に機械学習ではPyTorch、Webはフロントエンドについての内容を取り上げていく予定です。"
+    images: [images/opengraph-image.png]
+    description: Kazu Blogsでは機械学習・Web技術、そして日々の活動について書いています。主に機械学習ではPyTorch、Webはフロントエンドについての内容を取り上げていく予定です。
 
     profileMode:
       enabled: false
-      Title: "Kazu Blogs"
+      Title: Kazu Blogs
       subtitle: >
           ## Hi there 👋
 
@@ -75,7 +75,7 @@ params:
           url: design
 
     homeInfoParams:
-        Title: "Kazu Blogs"
+        Title: Kazu Blogs
         Content: >
           ## Hi there 👋
 
@@ -87,30 +87,30 @@ params:
           - 
 
     socialIcons: # optional
-        - name: "github"
-          url: "https://github.com/kazu0429"
-        - name: "instagram"
-          url: "https://www.instagram.com/kazu__a041/"
-        - name: "X"
-          url: "https://twitter.com/Akazu0429"
-        - name: "applemusic"
-          url: ""
-        - name: "zenn"
-          url: "https://zenn.dev/kazu0429"
+        - name: github
+          url: https://github.com/kazu0429
+        - name: instagram
+          url: https://www.instagram.com/kazu__a041
+        - name: X
+          url: https://twitter.com/Akazu0429
+        - name: applemusic
+          url: https://music.apple.com/profile/Kazu_a042
+        - name: zenn
+          url: https://zenn.dev/kazu0429
 
-    analytics:
+    # analytics:
       # SiteVerificationTag: ""
 
     editPost:
-      URL: "https://github.com/kazu0429/kazu-blogs/content"
-      Text: "Suggest Changes" # edit text
+      URL: https://github.com/kazu0429/kazu-blogs/content
+      Text: Suggest Changes # edit text
       appendFilePath: true # to append file path to Edit link
     
     assets:
-      favicon: "/favicon.ico"
-      favicon16x16:  "/favicon-16x16.png"
-      favicon32x32:  "/favicon-32x32.png"
-      apple_touch_icon:  "/apple-touch-icon.png"
+      favicon: /favicon.ico
+      favicon16x16:  img/favicon-16x16.png
+      favicon32x32: img/favicon-32x32.png
+      apple_touch_icon:  img/apple-touch-icon.png
     
     markup:
       highlight:
